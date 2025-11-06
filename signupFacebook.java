@@ -44,11 +44,11 @@ public class signupFacebook {
 	   Thread.sleep(2000);
 	   
 	   WebElement email = driver.findElement(By.xpath("//input[@name = 'reg_email__']"));
-	   email.sendKeys("ayushrawat9512@gmail.com");
+	   email.sendKeys("ayushrawat551542@gmail.com");
 	   Thread.sleep(3000);
 	   
 	   WebElement password = driver.findElement(By.xpath("//input[@id = 'password_step_input']"));
-	   password.sendKeys("Ayush@2026");
+	   password.sendKeys("Ayush@2255335026");
 	   Thread.sleep(3000);
 	   
 	   WebElement signup = driver.findElement(By.xpath("//button[text() = 'Sign Up']"));
@@ -67,3 +67,4 @@ public class signupFacebook {
 	
 
 }
+
