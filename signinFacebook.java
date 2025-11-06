@@ -15,11 +15,11 @@ public class signinFacebook {
 	   Thread.sleep(2000);
 	   
 	   WebElement email  = driver.findElement(By.xpath("//input[@name = 'email']"));
-	   email.sendKeys("ayushrawat9512@gmail.com");
+	   email.sendKeys("ayushrawat9517572@gmail.com");
 	   Thread.sleep(2000);
 	   
 	   WebElement password  = driver.findElement(By.cssSelector("input[name = 'pass']"));
-	   password.sendKeys("Ayush@2026");
+	   password.sendKeys("Ayush@2027575756");
 	   Thread.sleep(2000);
 	   
 	  
@@ -38,3 +38,4 @@ public class signinFacebook {
 	   
 		}
 }
+
